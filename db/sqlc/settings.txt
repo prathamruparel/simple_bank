@@ -1,0 +1,32 @@
+{
+    "go.buildOnSave": "off",
+    "go.lintOnSave": "package",
+    "go.vetOnSave": "workspace",
+    "go.buildTags": "",
+    "go.buildFlags": [],
+    "go.lintTool": "golint",
+    "go.lintFlags": [],
+    "go.vetFlags": [],
+    "go.testOnSave": true,
+    "go.coverOnSave": false,
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": null,
+    "go.formatTool": "goimports",
+    "go.formatFlags": [],
+    "go.goroot": "",
+    "go.gopath": "",
+    "go.inferGopath": true,
+    "go.gocodeAutoBuild": false,
+    "go.testFlags": [
+        "-v"
+    ],
+    "go.toolsManagement.autoUpdate": true,
+    "go.autocompleteUnimportedPackages": true,
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    },
+}
